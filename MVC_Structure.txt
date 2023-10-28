@@ -1,0 +1,31 @@
+project-root
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── com
+│   │   │   │   ├── yourpackage
+│   │   │   │   │   ├── controller
+│   │   │   │   │   │   └── YourController.java
+│   │   │   │   │   ├── model
+│   │   │   │   │   │   └── YourModel.java
+│   │   │   │   │   └── dao
+│   │   │   │   │       └── YourDAO.java
+│   │   │   ├── resources
+│   │   │   │   ├── application.properties (or other configuration files)
+│   │   │   │   ├── static
+│   │   │   │   │   ├── css
+│   │   │   │   │   ├── js
+│   │   │   │   │   └── images
+│   │   │   │   └── templates (for HTML templates or JSP files)
+│   │   │   └── webapp
+│   │   │       ├── WEB-INF
+│   │   │       │   ├── views (JSP files)
+│   │   │       │   ├── lib (JAR files)
+│   │   │       │   └── web.xml
+│   │   │       ├── index.jsp (or other entry point for your application)
+│   │   │       └── error.jsp (custom error page)
+│   │   └── resources (configuration files for different environments)
+│   └── test (unit tests)
+│
+└── pom.xml (Maven project configuration file)
